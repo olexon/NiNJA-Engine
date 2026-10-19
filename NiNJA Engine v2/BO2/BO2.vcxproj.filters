@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\ESP.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameFuncs.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GeoLocationParser.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HudElemProcessing.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Autowall.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Buttons.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Colors.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Entities.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AtgAudioCleaned.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sounds.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tinyxml\tinyxml2.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Detour.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HttpRequest.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MemoryManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Patches.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SecureStrings.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ServerComm.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Utilities.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\XBLSMsgr.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Debug.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Globals.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SystemHooks.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TitleHooks.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UI.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NiNJAEngine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\rapidjson\allocators.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\internal\diyfp.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\document.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\internal\dtoa.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\error\en.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\encodedstream.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\encodings.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\internal\biginteger.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\internal\regex.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\internal\pow10.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\rapidjson.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\reader.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\internal\itoa.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\msinttypes\inttypes.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\internal\ieee754.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ESP.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameFuncs.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MailMan.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Autowall.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Nospread.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Spinbot.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Buttons.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Colors.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Entities.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AtgAudioCleaned.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sounds.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\internal\stack.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\msinttypes\stdint.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\stream.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\internal\strfunc.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\stringbuffer.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\internal\strtod.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\internal\swap.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tinyxml\tinyxml2.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\writer.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Detour.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HttpRequest.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\memorybuffer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MemoryManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Patches.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SecureStrings.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Settings.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ServerComm.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Utilities.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\XBLSMsgr.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Debug.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\error\error.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GeoLocationParser.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HudElemProcessing.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Globals.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\memorystream.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SystemHooks.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TitleHooks.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UI.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UserCmd.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidjson\internal\meta.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Aimbot.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\Engine.def" />
+    <None Include="..\src\Engine.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{93fe8672-576f-4c15-80d9-73a2d8156ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{4c3190ba-e3ba-4c3f-9a11-42338da0dd1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{8c2c6201-a5c6-4082-a037-b78ebf83dc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{2f71b2ea-0788-4c82-ae3c-ef9affb78d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{f4571e35-ec89-4b84-b5b3-5b666904f72e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
